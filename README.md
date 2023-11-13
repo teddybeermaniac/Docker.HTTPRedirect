@@ -4,7 +4,7 @@ Uses [Docker.StaticHTTPD].
 
 ## Usage
 ```
-docker run -d -p 8080:80 -e REDIRECT_LOCATION=https://github.com/teddybeermaniac ghcr.io/teddybeermaniac/docker.httpredirect:latest
+docker run -d -p 8080:8080 -e REDIRECT_LOCATION=https://github.com/teddybeermaniac ghcr.io/teddybeermaniac/docker.httpredirect:latest
 ```
 
 ## Environment variables
