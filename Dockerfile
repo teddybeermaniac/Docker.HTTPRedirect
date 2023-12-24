@@ -1,4 +1,4 @@
-FROM ghcr.io/teddybeermaniac/docker.statichttpd:v0.3.3
+FROM ghcr.io/teddybeermaniac/docker.statichttpd:v0.3.4
 
 COPY redirect.sh /app/cgi-bin/index.cgi
 
